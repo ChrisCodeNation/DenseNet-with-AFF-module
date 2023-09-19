@@ -1,4 +1,6 @@
 # DenseNet-with-AFF-module
+提出多尺度特徵融合之中文手寫字辨識模型，將DenseNet結合Attentional Feature Fusion，並搭配skip connection概念達到多層的特徵融合技術，使模型能取得更豐富的語意特徵，解決集成式模型資源不足的問題及降低模型複雜度，同時提升模型正確率。模型於ICDAR中文手寫辨識競賽的正確率從94.77%提升至97.23%，改善2.46%的正確率
+
 ![](./architecture.jpg)
 
 [Attentional feature fusion](https://arxiv.org/abs/2009.14082)
